@@ -6,4 +6,19 @@ box-sizing: border-box;
 height: 100%;
 margin: 0;
 padding: 0;
+padding-top: 30px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgreen;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    color: darkslategray(206, 17%, 28%);
 }
