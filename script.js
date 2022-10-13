@@ -1,4 +1,4 @@
-// Array of special characters to be included in password
+//Special characters
 var specialCharacters = [
     '@',
     '%',
