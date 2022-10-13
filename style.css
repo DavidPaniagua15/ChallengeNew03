@@ -56,3 +56,11 @@ header {
  .card-footer {
     text-align: center;
  }
+
+ .card-footer::before {
+    content: " ";
+    display: block;
+    width: 100%;
+    background: papayawhip;
+    height: 2px;
+ }
