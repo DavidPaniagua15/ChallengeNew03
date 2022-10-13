@@ -1,5 +1,4 @@
 *,
-
 *::before,
 *::after {
   box-sizing: border-box;
@@ -19,9 +18,9 @@ body {
 }
 
 .wrapper {
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header {
@@ -42,12 +41,18 @@ header {
     padding: 30px 40px;
  }
 
- .card-header {
+ .card-header::after {
     content: " ";
     display: block;
     width: 100%;
-    background: white;
+    background: #e7e9eb;
     height: 2px;
- }
+  }
 
+ .card-body {
+    min-height: 100px;
+ }
  
+ .card-footer {
+    text-align: center;
+ }
