@@ -17,6 +17,12 @@ body {
     background-color: lightgreen;
 }
 
+.wrapper {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 header {
     text-align: center;
     padding: 20px;
