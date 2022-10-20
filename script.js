@@ -130,7 +130,7 @@ function getPasswordOptions() {
     'Click OK to confirm including uppercase characters.'
   );
 
-  // Conditional statement to check if user does not include any types of characters.//
+  //Statement to check if user does not include any types of characters.//
   if (
     hasSpecialCharacters === false &&
     hasNumericCharacters === false &&
@@ -167,7 +167,7 @@ function generatePassword() {
   // Variable to store password as it's being concatenated//
   var result = [];
 
-  // Array to store types of characters to include in password
+  // Array to store types of characters//
   var possibleCharacters = [];
 
   // Array to contain one of each type of chosen character to ensure each will be used
