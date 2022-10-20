@@ -76,9 +76,9 @@ header {
     background-color: lightblue;
     border-radius: 25px;
     box-shadow: black 0px 1px 6px 0px black 0px 1px 1px 0px;
-    color: white(0, 0%, 100%);
+    color: white;
     display: inline-block;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 22px;
     margin: 16px 16px 16px 20px;
     padding: 14px 34px;
@@ -99,6 +99,7 @@ header {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    border: none;
     display: block;
     width: 100%;
     padding-top: 15px;
