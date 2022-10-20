@@ -90,13 +90,13 @@ var upperCasedCharacters = [
 
   //prompt for password options//
 function getPasswordOptions() {
-  // Variable to store length of password from user input
+  // Variable to store password from user input //
   var length = parseInt(
     prompt('How many characters would you like your password to contain?'),
     10
   );
 
-  //to check the promp and see if the password length is a number//
+  //to check promp and see if the password length is a number//
   if (Number.isNaN(length)) {
     alert('Password length must be provided as a number');
     return null;
